@@ -32,6 +32,7 @@
 ![图片](https://github.com/user-attachments/assets/f6c90585-968d-419b-bb86-2ec11ccad9fd)
 ### 环境搭建（建议linux）
 1、`apt-get install dssp `
+
 2、`pip3 -r install requirement.txt`
 ### 使用方法
 1、运行GetData.py获取源数据集，并下载到train_data和test_data两个目录下（已经下载好一份）
