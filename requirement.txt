@@ -1,0 +1,2 @@
+biopython==1.85
+torch==2.5.1
