@@ -38,7 +38,9 @@
 3、安装python第三方库：`pip3 install -r requirement.txt`
 ### 使用方法
 1、运行GetData.py获取源数据集，并下载到train_data和test_data两个目录下
+
 2、运行ProcessData.py进行预处理，转化成实验数据，得到X.pt和y.pt数据集
+
 3、运行train.ipynb文件，进行训练
 
 
