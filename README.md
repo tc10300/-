@@ -31,11 +31,13 @@
 ·最终输出维度为(batch, max_len, num_classes)，表示每个序列位置的类别预测
 ![图片](https://github.com/user-attachments/assets/f6c90585-968d-419b-bb86-2ec11ccad9fd)
 ### 环境搭建（建议linux）
-1、`apt-get install dssp `
+1、python环境：3.12.7
 
-2、`pip3 -r install requirement.txt`
+2、安装dssp底层依赖 ：`apt-get install dssp `
+
+3、安装python第三方库：`pip3 install -r requirement.txt`
 ### 使用方法
-1、运行GetData.py获取源数据集，并下载到train_data和test_data两个目录下（已经下载好一份）
+1、运行GetData.py获取源数据集，并下载到train_data和test_data两个目录下
 2、运行ProcessData.py进行预处理，转化成实验数据，得到X.pt和y.pt数据集
 3、运行train.ipynb文件，进行训练
 
